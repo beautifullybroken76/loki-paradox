@@ -1,0 +1,3045 @@
+{
+  "schemaVersion": 1,
+  "questions": [
+    {
+      "id": "R01-APP-S1-001",
+      "chapter": 1,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 2 = 8.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 2 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R01-APP-S2-001",
+      "chapter": 1,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R01-APP-S3-001",
+      "chapter": 1,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R01-APP-S4-001",
+      "chapter": 1,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 20?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "20 ÷ 10 = 2."
+    },
+    {
+      "id": "R01-APP-S5-001",
+      "chapter": 1,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R01-INV-S1-001",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Linear equations",
+      "title": "The Broken Coordinate",
+      "story": "The first seal is inscribed with a numerical ward. “A child could solve this,” says the TVA Loki. His mythic counterpart raises an eyebrow. “Then you should have no difficulty.”",
+      "question": "3x + 7 = 28. What is x?",
+      "answers": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "correct": 1,
+      "hint": "Undo the addition first: subtract 7 from both sides.",
+      "explain": "3x + 7 = 28 → 3x = 21 → x = 7."
+    },
+    {
+      "id": "R01-INV-S1-002",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Linear equations",
+      "title": "The Broken Coordinate",
+      "story": "The first seal is inscribed with a numerical ward. “A child could solve this,” says the TVA Loki. His mythic counterpart raises an eyebrow. “Then you should have no difficulty.”",
+      "question": "Solve: 4x + 5 = 33. What is x?",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 1,
+      "hint": "Subtract 5, then divide by 4.",
+      "explain": "4x=28, so x=7."
+    },
+    {
+      "id": "R01-INV-S1-003",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Linear equations",
+      "title": "The Broken Coordinate",
+      "story": "The first seal is inscribed with a numerical ward. “A child could solve this,” says the TVA Loki. His mythic counterpart raises an eyebrow. “Then you should have no difficulty.”",
+      "question": "Solve: 5x − 6 = 29. What is x?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "hint": "Add 6 to both sides, then divide by 5.",
+      "explain": "5x=35, so x=7."
+    },
+    {
+      "id": "R01-INV-S2-001",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "English · Punctuation",
+      "title": "The Archivist’s Report",
+      "story": "A TVA report has been tampered with. Its punctuation determines whether the warning can be trusted.",
+      "question": "Which sentence is correctly punctuated?",
+      "answers": [
+        "Loki however refused to explain.",
+        "Loki, however, refused to explain.",
+        "Loki however, refused to explain.",
+        "Loki, however refused to explain."
+      ],
+      "correct": 1,
+      "hint": "“However” interrupts the sentence and needs punctuation on both sides.",
+      "explain": "When “however” is an interrupter, commas set it off: “Loki, however, refused to explain.”"
+    },
+    {
+      "id": "R01-INV-S2-002",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "English · Punctuation",
+      "title": "The Archivist’s Report",
+      "story": "A TVA report has been tampered with. Its punctuation determines whether the warning can be trusted.",
+      "question": "Which sentence uses commas correctly?",
+      "answers": [
+        "The portal, however was locked.",
+        "The portal however, was locked.",
+        "The portal, however, was locked.",
+        "The portal however was locked."
+      ],
+      "correct": 2,
+      "hint": "An interrupting 'however' needs commas on both sides.",
+      "explain": "'The portal, however, was locked.' sets off the interrupter."
+    },
+    {
+      "id": "R01-INV-S2-003",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "English · Punctuation",
+      "title": "The Archivist’s Report",
+      "story": "A TVA report has been tampered with. Its punctuation determines whether the warning can be trusted.",
+      "question": "Which sentence is correctly punctuated?",
+      "answers": [
+        "The trickster, meanwhile, vanished.",
+        "The trickster meanwhile, vanished.",
+        "The trickster, meanwhile vanished.",
+        "The trickster meanwhile vanished."
+      ],
+      "correct": 0,
+      "hint": "Set off 'meanwhile' when it interrupts the sentence.",
+      "explain": "Commas belong before and after the interrupter."
+    },
+    {
+      "id": "R01-INV-S3-001",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Algebra I · Substitution",
+      "title": "The Nine-Realm Gate",
+      "story": "The gate requires a value, not a guess. Beyond it, the branches of Yggdrasil tremble.",
+      "question": "If y = 2x + 3 and x = 4, what is y?",
+      "answers": [
+        "9",
+        "11",
+        "14",
+        "17"
+      ],
+      "correct": 1,
+      "hint": "Replace x with 4, then multiply before adding.",
+      "explain": "y = 2(4) + 3 = 8 + 3 = 11."
+    },
+    {
+      "id": "R01-INV-S3-002",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Algebra I · Substitution",
+      "title": "The Nine-Realm Gate",
+      "story": "The gate requires a value, not a guess. Beyond it, the branches of Yggdrasil tremble.",
+      "question": "If y = 3x + 2 and x = 5, what is y?",
+      "answers": [
+        "15",
+        "17",
+        "18",
+        "20"
+      ],
+      "correct": 1,
+      "hint": "Substitute 5 for x, then multiply before adding.",
+      "explain": "y=3(5)+2=17."
+    },
+    {
+      "id": "R01-INV-S3-003",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Algebra I · Substitution",
+      "title": "The Nine-Realm Gate",
+      "story": "The gate requires a value, not a guess. Beyond it, the branches of Yggdrasil tremble.",
+      "question": "If y = 4x − 1 and x = 3, what is y?",
+      "answers": [
+        "7",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct": 2,
+      "hint": "Multiply 4 by 3, then subtract 1.",
+      "explain": "y=4(3)−1=11."
+    },
+    {
+      "id": "R01-INV-S4-001",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Reading · Evidence",
+      "title": "The Trickster’s Testimony",
+      "story": "A witness statement reads: “The portal opened only after the bell rang. Before the bell, the corridor was empty.”",
+      "question": "Which conclusion is best supported?",
+      "answers": [
+        "Someone opened the portal before the bell.",
+        "The corridor was occupied before the bell.",
+        "The portal opened after the bell rang.",
+        "The bell caused the portal to malfunction."
+      ],
+      "correct": 2,
+      "hint": "Choose what the statement directly supports, not a possible explanation.",
+      "explain": "The statement explicitly places the portal opening after the bell. It does not establish a cause."
+    },
+    {
+      "id": "R01-INV-S4-002",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Reading · Evidence",
+      "title": "The Trickster’s Testimony",
+      "story": "A witness statement reads: “The portal opened only after the bell rang. Before the bell, the corridor was empty.”",
+      "question": "A witness says: 'The gate remained shut until sunset. Then the guards heard a chime.' Which is supported?",
+      "answers": [
+        "The chime caused sunset.",
+        "The gate was shut before sunset.",
+        "The guards opened the gate.",
+        "The gate was destroyed."
+      ],
+      "correct": 1,
+      "hint": "Look for what is explicitly stated, not a possible cause.",
+      "explain": "The gate remained shut until sunset; the other claims are not established."
+    },
+    {
+      "id": "R01-INV-S4-003",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Reading · Evidence",
+      "title": "The Trickster’s Testimony",
+      "story": "A witness statement reads: “The portal opened only after the bell rang. Before the bell, the corridor was empty.”",
+      "question": "A report says: 'The crystal glowed after the alarm sounded.' Which conclusion follows?",
+      "answers": [
+        "The alarm broke the crystal.",
+        "The crystal glowed before the alarm.",
+        "The crystal glowed after the alarm.",
+        "Loki triggered the alarm."
+      ],
+      "correct": 2,
+      "hint": "Separate sequence from causation.",
+      "explain": "Only the order of events is established."
+    },
+    {
+      "id": "R01-INV-S5-001",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Inequalities",
+      "title": "The Last Thread",
+      "story": "A final rune glows above a collapsing bridge. “There is still time,” Loki says. “Probably.”",
+      "question": "Solve: 2x − 3 > 7",
+      "answers": [
+        "x > 2",
+        "x > 5",
+        "x < 5",
+        "x > 10"
+      ],
+      "correct": 1,
+      "hint": "Add 3 to both sides, then divide both sides by 2.",
+      "explain": "2x − 3 > 7 → 2x > 10 → x > 5."
+    },
+    {
+      "id": "R01-INV-S5-002",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Inequalities",
+      "title": "The Last Thread",
+      "story": "A final rune glows above a collapsing bridge. “There is still time,” Loki says. “Probably.”",
+      "question": "Solve: 3x + 2 > 17",
+      "answers": [
+        "x > 3",
+        "x > 5",
+        "x < 5",
+        "x > 6"
+      ],
+      "correct": 1,
+      "hint": "Subtract 2 and divide by 3.",
+      "explain": "3x>15, so x>5."
+    },
+    {
+      "id": "R01-INV-S5-003",
+      "chapter": 1,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Inequalities",
+      "title": "The Last Thread",
+      "story": "A final rune glows above a collapsing bridge. “There is still time,” Loki says. “Probably.”",
+      "question": "Solve: 4x − 8 ≤ 12",
+      "answers": [
+        "x ≤ 5",
+        "x ≥ 5",
+        "x < 4",
+        "x ≤ 4"
+      ],
+      "correct": 0,
+      "hint": "Add 8, then divide by 4.",
+      "explain": "4x≤20, so x≤5."
+    },
+    {
+      "id": "R01-CHA-S1-001",
+      "chapter": 1,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 7x − 5 = 30.",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "7x=35, so x=5."
+    },
+    {
+      "id": "R01-CHA-S2-001",
+      "chapter": 1,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R01-CHA-S3-001",
+      "chapter": 1,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R01-CHA-S4-001",
+      "chapter": 1,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 5 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 5 = 15."
+    },
+    {
+      "id": "R01-CHA-S5-001",
+      "chapter": 1,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R02-APP-S1-001",
+      "chapter": 2,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 3 = 9.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 3 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R02-APP-S2-001",
+      "chapter": 2,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R02-APP-S3-001",
+      "chapter": 2,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R02-APP-S4-001",
+      "chapter": 2,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 30?",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "30 ÷ 10 = 3."
+    },
+    {
+      "id": "R02-APP-S5-001",
+      "chapter": 2,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R02-INV-S1-001",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Reading · Main idea",
+      "title": "The Living Manuscript",
+      "story": "A page writes itself: “Each night, the library loses a memory. At dawn, the books rearrange themselves to hide the missing story. The librarians fear that soon no one will remember the first disappearance.”",
+      "question": "What is the central idea of the passage?",
+      "answers": [
+        "The librarians prefer working at dawn.",
+        "The library is gradually losing memories and concealing the loss.",
+        "The books are being sold at night.",
+        "A visitor wants to reorganize the shelves."
+      ],
+      "correct": 1,
+      "hint": "Look for the idea supported by every sentence.",
+      "explain": "All three sentences describe lost memories and the library’s attempts to hide them."
+    },
+    {
+      "id": "R02-INV-S1-002",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Reading · Main idea",
+      "title": "The Living Manuscript",
+      "story": "A page writes itself: “Each night, the library loses a memory. At dawn, the books rearrange themselves to hide the missing story. The librarians fear that soon no one will remember the first disappearance.”",
+      "question": "A manuscript says: 'The shelves whisper forgotten names, but nobody can remember them by morning.' What is the main idea?",
+      "answers": [
+        "The library is closing.",
+        "Memories disappear overnight.",
+        "The shelves are broken.",
+        "Visitors dislike books."
+      ],
+      "correct": 1,
+      "hint": "Look for the repeated idea.",
+      "explain": "The passage focuses on memories being lost overnight."
+    },
+    {
+      "id": "R02-INV-S2-001",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "English · Subject–verb agreement",
+      "title": "The Forged Prophecy",
+      "story": "“Whoever forged this has terrible grammar,” the TVA Loki says. “A crime worse than forgery,” says the other, dryly.",
+      "question": "Choose the sentence with correct subject–verb agreement.",
+      "answers": [
+        "The collection of ancient scrolls are missing.",
+        "The collection of ancient scrolls is missing.",
+        "The collection of ancient scrolls were missing.",
+        "The collection of ancient scrolls have missing."
+      ],
+      "correct": 1,
+      "hint": "The subject is “collection,” not “scrolls.”",
+      "explain": "“Collection” is singular, so it takes “is.”"
+    },
+    {
+      "id": "R02-INV-S2-002",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "English · Subject–verb agreement",
+      "title": "The Forged Prophecy",
+      "story": "“Whoever forged this has terrible grammar,” the TVA Loki says. “A crime worse than forgery,” says the other, dryly.",
+      "question": "Choose the correctly punctuated sentence.",
+      "answers": [
+        "The librarian, who knew the secret, remained silent.",
+        "The librarian who knew the secret, remained silent.",
+        "The librarian, who knew the secret remained silent.",
+        "The librarian who, knew the secret remained silent."
+      ],
+      "correct": 0,
+      "hint": "A nonessential clause is enclosed by two commas.",
+      "explain": "The clause 'who knew the secret' is set off by commas."
+    },
+    {
+      "id": "R02-INV-S3-001",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Reading · Inference",
+      "title": "A Clue in the Margins",
+      "story": "The librarian says, “No mortal has entered since the eclipse. Yet fresh footprints lead from the window to the locked archive.” The window is open.",
+      "question": "Which inference is most reasonable?",
+      "answers": [
+        "The librarian definitely made the footprints.",
+        "Someone may have entered through the window.",
+        "The eclipse caused the footprints.",
+        "The archive has never been locked."
+      ],
+      "correct": 1,
+      "hint": "Use the physical evidence without assuming you know who made it.",
+      "explain": "Fresh footprints and an open window suggest a possible entrance, but do not prove who entered."
+    },
+    {
+      "id": "R02-INV-S3-002",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Reading · Inference",
+      "title": "A Clue in the Margins",
+      "story": "The librarian says, “No mortal has entered since the eclipse. Yet fresh footprints lead from the window to the locked archive.” The window is open.",
+      "question": "A witness says the visitor wore silver gloves. The suspect's gloves are black. What follows?",
+      "answers": [
+        "The suspect is definitely innocent.",
+        "The gloves do not match the description.",
+        "The witness was lying.",
+        "The suspect stole the prophecy."
+      ],
+      "correct": 1,
+      "hint": "Choose the narrowest supported conclusion.",
+      "explain": "The glove colors differ; that alone does not prove innocence."
+    },
+    {
+      "id": "R02-INV-S4-001",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "English · Concision",
+      "title": "The Redundant Rune",
+      "story": "A spell repeats itself until the shelves begin to shake. “The rune is as long-winded as my brother,” says the armored Loki. “I’m not your brother,” says the TVA Loki. “An improvement, then.”",
+      "question": "Which revision is clearest and most concise?",
+      "answers": [
+        "Due to the fact that the door was locked, we could not enter.",
+        "We could not enter because the door was locked.",
+        "The locked door was a door that prevented entry.",
+        "We could not enter on account of the fact of the locked door."
+      ],
+      "correct": 1,
+      "hint": "Prefer direct language without unnecessary phrases.",
+      "explain": "“Because” conveys the relationship clearly without extra words."
+    },
+    {
+      "id": "R02-INV-S4-002",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "English · Concision",
+      "title": "The Redundant Rune",
+      "story": "A spell repeats itself until the shelves begin to shake. “The rune is as long-winded as my brother,” says the armored Loki. “I’m not your brother,” says the TVA Loki. “An improvement, then.”",
+      "question": "Which word best completes: 'The ink vanished; ___, the parchment remained intact.'",
+      "answers": [
+        "therefore",
+        "however",
+        "similarly",
+        "for example"
+      ],
+      "correct": 1,
+      "hint": "A contrast is being introduced.",
+      "explain": "'However' signals a contrast."
+    },
+    {
+      "id": "R02-INV-S5-001",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Reading · Text evidence",
+      "title": "The Last Page",
+      "story": "The prophecy reads: “The thief did not take the rune. The thief took the name of the one who guarded it.” A second line appears: “Find the keeper whose portrait has no inscription.”",
+      "question": "What should the investigator examine next?",
+      "answers": [
+        "Every rune in the library",
+        "The portraits of the keepers",
+        "The library’s oldest clock",
+        "The garden outside"
+      ],
+      "correct": 1,
+      "hint": "Follow the explicit instruction in the second line.",
+      "explain": "The text directs the investigator to find a keeper’s portrait missing its inscription."
+    },
+    {
+      "id": "R02-INV-S5-002",
+      "chapter": 2,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Reading · Text evidence",
+      "title": "The Last Page",
+      "story": "The prophecy reads: “The thief did not take the rune. The thief took the name of the one who guarded it.” A second line appears: “Find the keeper whose portrait has no inscription.”",
+      "question": "A prophecy describes a 'reluctant ally.' What does reluctant most nearly mean?",
+      "answers": [
+        "eager",
+        "unwilling",
+        "powerful",
+        "unknown"
+      ],
+      "correct": 1,
+      "hint": "Think of someone helping despite hesitation.",
+      "explain": "Reluctant means hesitant or unwilling."
+    },
+    {
+      "id": "R02-CHA-S1-001",
+      "chapter": 2,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 9x − 5 = 49.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "9x=54, so x=6."
+    },
+    {
+      "id": "R02-CHA-S2-001",
+      "chapter": 2,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R02-CHA-S3-001",
+      "chapter": 2,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R02-CHA-S4-001",
+      "chapter": 2,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 6 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 6 = 18."
+    },
+    {
+      "id": "R02-CHA-S5-001",
+      "chapter": 2,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R03-APP-S1-001",
+      "chapter": 3,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 4 = 10.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 4 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R03-APP-S2-001",
+      "chapter": 3,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R03-APP-S3-001",
+      "chapter": 3,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R03-APP-S4-001",
+      "chapter": 3,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 40?",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "40 ÷ 10 = 4."
+    },
+    {
+      "id": "R03-APP-S5-001",
+      "chapter": 3,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R03-INV-S1-001",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Proportions",
+      "title": "The Giant’s Map",
+      "story": "Hrim unrolls a map so large the TVA Loki must stand on it to keep it from blowing away.",
+      "question": "On the map, 2 inches represent 10 miles. How many miles do 7 inches represent?",
+      "answers": [
+        "14",
+        "25",
+        "35",
+        "70"
+      ],
+      "correct": 2,
+      "hint": "Find the number of miles represented by 1 inch, then multiply by 7.",
+      "explain": "10 ÷ 2 = 5 miles per inch. 7 × 5 = 35 miles."
+    },
+    {
+      "id": "R03-INV-S1-002",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Proportions",
+      "title": "The Giant’s Map",
+      "story": "Hrim unrolls a map so large the TVA Loki must stand on it to keep it from blowing away.",
+      "question": "Solve: 6x − 4 = 20.",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 1,
+      "hint": "Add 4, then divide by 6.",
+      "explain": "6x=24, so x=4."
+    },
+    {
+      "id": "R03-INV-S2-001",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Geometry · Area",
+      "title": "The Ice Bridge",
+      "story": "A rectangular bridge must be covered with protective runes. “I could simply teleport,” says the armored Loki. “You could also help,” replies the TVA Loki.",
+      "question": "A bridge is 12 feet long and 5 feet wide. What is its area?",
+      "answers": [
+        "17 square feet",
+        "34 square feet",
+        "60 square feet",
+        "120 square feet"
+      ],
+      "correct": 2,
+      "hint": "Area of a rectangle = length × width.",
+      "explain": "12 × 5 = 60 square feet."
+    },
+    {
+      "id": "R03-INV-S2-002",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Geometry · Area",
+      "title": "The Ice Bridge",
+      "story": "A rectangular bridge must be covered with protective runes. “I could simply teleport,” says the armored Loki. “You could also help,” replies the TVA Loki.",
+      "question": "A giant's map uses 1 inch for 8 miles. How far is 3 inches?",
+      "answers": [
+        "11 miles",
+        "16 miles",
+        "24 miles",
+        "32 miles"
+      ],
+      "correct": 2,
+      "hint": "Multiply the scale by 3.",
+      "explain": "3×8=24 miles."
+    },
+    {
+      "id": "R03-INV-S3-001",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Algebra I · Two-step equations",
+      "title": "The Locked Chest",
+      "story": "A chest glows with a cold blue light. Hrim says, “The lock answers only to balance.”",
+      "question": "Solve: 4x − 6 = 18",
+      "answers": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "hint": "Add 6, then divide by 4.",
+      "explain": "4x = 24, so x = 6."
+    },
+    {
+      "id": "R03-INV-S3-002",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Algebra I · Two-step equations",
+      "title": "The Locked Chest",
+      "story": "A chest glows with a cold blue light. Hrim says, “The lock answers only to balance.”",
+      "question": "A rectangular ice bridge is 9 feet long and 4 feet wide. What is its area?",
+      "answers": [
+        "13",
+        "26",
+        "36",
+        "40"
+      ],
+      "correct": 2,
+      "hint": "Area = length × width.",
+      "explain": "9×4=36 square feet."
+    },
+    {
+      "id": "R03-INV-S4-001",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Math · Percentages",
+      "title": "The Frost Tax",
+      "story": "Hrim demands a fee for passage. “Of course there’s a tax,” says the TVA Loki. “Even giants have bureaucracy.”",
+      "question": "A merchant charges 20% of 45 gold pieces. How many gold pieces is the fee?",
+      "answers": [
+        "5",
+        "9",
+        "20",
+        "25"
+      ],
+      "correct": 1,
+      "hint": "20% = 0.20. Multiply by 45.",
+      "explain": "0.20 × 45 = 9 gold pieces."
+    },
+    {
+      "id": "R03-INV-S4-002",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Math · Percentages",
+      "title": "The Frost Tax",
+      "story": "Hrim demands a fee for passage. “Of course there’s a tax,” says the TVA Loki. “Even giants have bureaucracy.”",
+      "question": "Two frost runes cost 14 coins. At the same rate, how much do five cost?",
+      "answers": [
+        "21",
+        "28",
+        "35",
+        "42"
+      ],
+      "correct": 2,
+      "hint": "Find the price of one first.",
+      "explain": "14÷2=7; 5×7=35."
+    },
+    {
+      "id": "R03-INV-S5-001",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Reading · Logical inference",
+      "title": "The Bargain’s Fine Print",
+      "story": "The agreement reads: “The key will open the vault only if the moonstone is placed on the pedestal first.” You have the key but no moonstone.",
+      "question": "Which statement is supported by the agreement?",
+      "answers": [
+        "The key will open the vault without a moonstone.",
+        "The moonstone must be placed first for the key to work.",
+        "The moonstone is inside the vault.",
+        "The giant has already opened the vault."
+      ],
+      "correct": 1,
+      "hint": "Identify the stated necessary condition.",
+      "explain": "The text makes placing the moonstone a requirement before the key can open the vault."
+    },
+    {
+      "id": "R03-INV-S5-002",
+      "chapter": 3,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Reading · Logical inference",
+      "title": "The Bargain’s Fine Print",
+      "story": "The agreement reads: “The key will open the vault only if the moonstone is placed on the pedestal first.” You have the key but no moonstone.",
+      "question": "If x/3 = 6, what is x?",
+      "answers": [
+        "2",
+        "9",
+        "18",
+        "21"
+      ],
+      "correct": 2,
+      "hint": "Multiply both sides by 3.",
+      "explain": "x=18."
+    },
+    {
+      "id": "R03-CHA-S1-001",
+      "chapter": 3,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 11x − 5 = 72.",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "11x=77, so x=7."
+    },
+    {
+      "id": "R03-CHA-S2-001",
+      "chapter": 3,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R03-CHA-S3-001",
+      "chapter": 3,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R03-CHA-S4-001",
+      "chapter": 3,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 7 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "14",
+        "21",
+        "28",
+        "42"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 7 = 21."
+    },
+    {
+      "id": "R03-CHA-S5-001",
+      "chapter": 3,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R04-APP-S1-001",
+      "chapter": 4,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 5 = 11.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 5 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R04-APP-S2-001",
+      "chapter": 4,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R04-APP-S3-001",
+      "chapter": 4,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R04-APP-S4-001",
+      "chapter": 4,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 50?",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "50 ÷ 10 = 5."
+    },
+    {
+      "id": "R04-APP-S5-001",
+      "chapter": 4,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R04-INV-S1-001",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Math · Number patterns",
+      "title": "The Missing Second",
+      "story": "Four clock faces flash in sequence. “Surely this one is easy,” says the TVA Loki, who has not offered an answer.",
+      "question": "What number comes next: 3, 7, 11, 15, ___?",
+      "answers": [
+        "17",
+        "18",
+        "19",
+        "21"
+      ],
+      "correct": 2,
+      "hint": "Find the constant difference between consecutive numbers.",
+      "explain": "Each number increases by 4, so 15 + 4 = 19."
+    },
+    {
+      "id": "R04-INV-S1-002",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Math · Number patterns",
+      "title": "The Missing Second",
+      "story": "Four clock faces flash in sequence. “Surely this one is easy,” says the TVA Loki, who has not offered an answer.",
+      "question": "A clock ticks 3, 6, 9, 12. What comes next?",
+      "answers": [
+        "13",
+        "14",
+        "15",
+        "18"
+      ],
+      "correct": 2,
+      "hint": "Find the difference between terms.",
+      "explain": "The sequence increases by 3; next is 15."
+    },
+    {
+      "id": "R04-INV-S2-001",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Algebra I · Functions",
+      "title": "The Brass Gear",
+      "story": "A gear is labeled with an input-output rule. “It eats numbers,” says the armored Loki. “Relatable,” says the TVA Loki.",
+      "question": "If f(x) = 3x − 2, what is f(5)?",
+      "answers": [
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "correct": 1,
+      "hint": "Substitute 5 for x and multiply first.",
+      "explain": "f(5) = 3(5) − 2 = 13."
+    },
+    {
+      "id": "R04-INV-S2-002",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Algebra I · Functions",
+      "title": "The Brass Gear",
+      "story": "A gear is labeled with an input-output rule. “It eats numbers,” says the armored Loki. “Relatable,” says the TVA Loki.",
+      "question": "If f(x)=2x+4, what is f(6)?",
+      "answers": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correct": 2,
+      "hint": "Substitute 6 for x.",
+      "explain": "2(6)+4=16."
+    },
+    {
+      "id": "R04-INV-S3-001",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Math · Data interpretation",
+      "title": "The Stolen Hours",
+      "story": "A ledger lists seconds stolen from three realms: Asgard 12, Alfheim 18, Jötunheim 15.",
+      "question": "How many seconds were stolen in total?",
+      "answers": [
+        "33",
+        "35",
+        "45",
+        "54"
+      ],
+      "correct": 2,
+      "hint": "Add all three values.",
+      "explain": "12 + 18 + 15 = 45 seconds."
+    },
+    {
+      "id": "R04-INV-S3-002",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Math · Data interpretation",
+      "title": "The Stolen Hours",
+      "story": "A ledger lists seconds stolen from three realms: Asgard 12, Alfheim 18, Jötunheim 15.",
+      "question": "The ledger shows 8, 17 and 20 missing seconds. How many total?",
+      "answers": [
+        "35",
+        "40",
+        "45",
+        "47"
+      ],
+      "correct": 2,
+      "hint": "Add all three values.",
+      "explain": "8+17+20=45 seconds."
+    },
+    {
+      "id": "R04-INV-S4-001",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "English · Transitions",
+      "title": "The Clockmaker’s Note",
+      "story": "A note reads: “The machine was carefully repaired. ___, it failed the next morning.”",
+      "question": "Which transition best completes the sentence?",
+      "answers": [
+        "Therefore",
+        "However",
+        "For example",
+        "Similarly"
+      ],
+      "correct": 1,
+      "hint": "The second sentence contrasts with the first.",
+      "explain": "“However” signals the unexpected contrast between repair and failure."
+    },
+    {
+      "id": "R04-INV-S4-002",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "English · Transitions",
+      "title": "The Clockmaker’s Note",
+      "story": "A note reads: “The machine was carefully repaired. ___, it failed the next morning.”",
+      "question": "Choose the best transition: 'The mechanism looked flawless. ___, it stopped immediately.'",
+      "answers": [
+        "However",
+        "Likewise",
+        "For instance",
+        "Consequently"
+      ],
+      "correct": 0,
+      "hint": "The outcome contrasts with the expectation.",
+      "explain": "'However' introduces the contrast."
+    },
+    {
+      "id": "R04-INV-S5-001",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Linear relationships",
+      "title": "The Final Mechanism",
+      "story": "A clock loses 2 minutes every hour. “Finally,” says the TVA Loki, “a clock with my work ethic.”",
+      "question": "After 6 hours, how many minutes has the clock lost?",
+      "answers": [
+        "3",
+        "8",
+        "12",
+        "18"
+      ],
+      "correct": 2,
+      "hint": "Multiply the hourly loss by the number of hours.",
+      "explain": "2 minutes per hour × 6 hours = 12 minutes."
+    },
+    {
+      "id": "R04-INV-S5-002",
+      "chapter": 4,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Linear relationships",
+      "title": "The Final Mechanism",
+      "story": "A clock loses 2 minutes every hour. “Finally,” says the TVA Loki, “a clock with my work ethic.”",
+      "question": "A device gains 3 minutes per hour. How many minutes after 5 hours?",
+      "answers": [
+        "8",
+        "12",
+        "15",
+        "18"
+      ],
+      "correct": 2,
+      "hint": "Multiply the rate by elapsed hours.",
+      "explain": "3×5=15 minutes."
+    },
+    {
+      "id": "R04-CHA-S1-001",
+      "chapter": 4,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 13x − 5 = 99.",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "13x=104, so x=8."
+    },
+    {
+      "id": "R04-CHA-S2-001",
+      "chapter": 4,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R04-CHA-S3-001",
+      "chapter": 4,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R04-CHA-S4-001",
+      "chapter": 4,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 8 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "16",
+        "24",
+        "32",
+        "48"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 8 = 24."
+    },
+    {
+      "id": "R04-CHA-S5-001",
+      "chapter": 4,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R05-APP-S1-001",
+      "chapter": 5,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 6 = 12.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 6 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R05-APP-S2-001",
+      "chapter": 5,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R05-APP-S3-001",
+      "chapter": 5,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R05-APP-S4-001",
+      "chapter": 5,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 60?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "12"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "60 ÷ 10 = 6."
+    },
+    {
+      "id": "R05-APP-S5-001",
+      "chapter": 5,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R05-INV-S1-001",
+      "chapter": 5,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Reading · Inference",
+      "title": "The Keeper's Note",
+      "story": "A damp note survives beneath a bench.",
+      "question": "'The stranger arrived after the final train left. No passengers remained on the platform.' What follows?",
+      "answers": [
+        "The stranger rode the final train.",
+        "The stranger arrived when the platform was empty.",
+        "The keeper left on the final train.",
+        "The stranger caused the train to leave."
+      ],
+      "correct": 1,
+      "hint": "Focus on the sequence and the explicitly empty platform.",
+      "explain": "The stranger arrived after the train left, when no passengers remained."
+    },
+    {
+      "id": "R05-INV-S2-001",
+      "chapter": 5,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Algebra I · Ratios",
+      "title": "The Vanishing Tickets",
+      "story": "A ticket machine dispenses clues instead of tickets.",
+      "question": "A code uses 3 green marks for every 2 gold marks. If there are 12 green marks, how many gold?",
+      "answers": [
+        "6",
+        "8",
+        "10",
+        "18"
+      ],
+      "correct": 1,
+      "hint": "The scale factor from 3 to 12 is 4.",
+      "explain": "2 × 4 = 8 gold marks."
+    },
+    {
+      "id": "R05-INV-S3-001",
+      "chapter": 5,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "English · Agreement",
+      "title": "The Forged Announcement",
+      "story": "A sentence flickers across the board.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "Neither of the Lokis are admitting anything.",
+        "Neither of the Lokis is admitting anything.",
+        "Neither of the Lokis were admitting anything.",
+        "Neither of the Lokis have admitted anything."
+      ],
+      "correct": 1,
+      "hint": "'Neither' is singular in this construction.",
+      "explain": "'Neither ... is' uses singular subject–verb agreement."
+    },
+    {
+      "id": "R05-INV-S4-001",
+      "chapter": 5,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Data · Interpretation",
+      "title": "The Delayed Trains",
+      "story": "The station ledger lists delays of 4, 7, 5 and 8 minutes.",
+      "question": "What is the mean delay?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 1,
+      "hint": "Add all four delays, then divide by four.",
+      "explain": "(4+7+5+8)/4 = 24/4 = 6 minutes."
+    },
+    {
+      "id": "R05-INV-S5-001",
+      "chapter": 5,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Linear equations",
+      "title": "The Wall Without a Door",
+      "story": "The final panel has an equation scratched into the stone.",
+      "question": "Solve 4x − 9 = 19.",
+      "answers": [
+        "5",
+        "7",
+        "8",
+        "10"
+      ],
+      "correct": 1,
+      "hint": "Add 9, then divide by 4.",
+      "explain": "4x = 28, so x = 7."
+    },
+    {
+      "id": "R05-CHA-S1-001",
+      "chapter": 5,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 15x − 5 = 130.",
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "11"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "15x=135, so x=9."
+    },
+    {
+      "id": "R05-CHA-S2-001",
+      "chapter": 5,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R05-CHA-S3-001",
+      "chapter": 5,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R05-CHA-S4-001",
+      "chapter": 5,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 9 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "18",
+        "27",
+        "36",
+        "54"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 9 = 27."
+    },
+    {
+      "id": "R05-CHA-S5-001",
+      "chapter": 5,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R06-APP-S1-001",
+      "chapter": 6,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 7 = 13.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 7 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R06-APP-S2-001",
+      "chapter": 6,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R06-APP-S3-001",
+      "chapter": 6,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R06-APP-S4-001",
+      "chapter": 6,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 70?",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "14"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "70 ÷ 10 = 7."
+    },
+    {
+      "id": "R06-APP-S5-001",
+      "chapter": 6,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R06-INV-S1-001",
+      "chapter": 6,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Functions",
+      "title": "The Blooming Pattern",
+      "story": "Each seed grows according to a simple rule.",
+      "question": "If f(x) = 3x + 1, what is f(4)?",
+      "answers": [
+        "10",
+        "12",
+        "13",
+        "16"
+      ],
+      "correct": 2,
+      "hint": "Substitute 4 for x.",
+      "explain": "3(4)+1=13."
+    },
+    {
+      "id": "R06-INV-S2-001",
+      "chapter": 6,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Reading · Tone",
+      "title": "The Gardener's Warning",
+      "story": "A message is etched into a watering can.",
+      "question": "'You may enter, if you are willing to lose what you hoped to find.' The tone is primarily:",
+      "answers": [
+        "playful",
+        "cautionary",
+        "celebratory",
+        "indifferent"
+      ],
+      "correct": 1,
+      "hint": "Consider whether the speaker is warning or congratulating.",
+      "explain": "The sentence warns of a possible cost."
+    },
+    {
+      "id": "R06-INV-S3-001",
+      "chapter": 6,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "English · Concision",
+      "title": "The Overgrown Sentence",
+      "story": "The roots tangle around a badly written sentence.",
+      "question": "Which revision is clearest and most concise?",
+      "answers": [
+        "Due to the fact that it rained, the garden was wet.",
+        "The garden was wet because of the fact that rain fell.",
+        "Because it rained, the garden was wet.",
+        "The garden, which was wet, had been made wet by rain."
+      ],
+      "correct": 2,
+      "hint": "Remove unnecessary phrases while preserving meaning.",
+      "explain": "'Because it rained, the garden was wet' is concise and clear."
+    },
+    {
+      "id": "R06-INV-S4-001",
+      "chapter": 6,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Math · Probability",
+      "title": "The Seed Pouch",
+      "story": "A pouch holds 3 green seeds and 2 gold seeds.",
+      "question": "If one seed is drawn at random, what is the probability it is gold?",
+      "answers": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "2/3"
+      ],
+      "correct": 1,
+      "hint": "Probability = favorable outcomes / total outcomes.",
+      "explain": "2 gold out of 5 total gives 2/5."
+    },
+    {
+      "id": "R06-INV-S5-001",
+      "chapter": 6,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Inequalities",
+      "title": "The Last Fork",
+      "story": "A living gate asks for a safe range.",
+      "question": "Solve 5x + 2 ≤ 22.",
+      "answers": [
+        "x ≤ 4",
+        "x ≥ 4",
+        "x ≤ 5",
+        "x ≥ 5"
+      ],
+      "correct": 0,
+      "hint": "Subtract 2, then divide by 5.",
+      "explain": "5x≤20, so x≤4."
+    },
+    {
+      "id": "R06-CHA-S1-001",
+      "chapter": 6,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 17x − 5 = 165.",
+      "answers": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "17x=170, so x=10."
+    },
+    {
+      "id": "R06-CHA-S2-001",
+      "chapter": 6,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R06-CHA-S3-001",
+      "chapter": 6,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R06-CHA-S4-001",
+      "chapter": 6,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 10 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "20",
+        "30",
+        "40",
+        "60"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 10 = 30."
+    },
+    {
+      "id": "R06-CHA-S5-001",
+      "chapter": 6,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R07-APP-S1-001",
+      "chapter": 7,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 8 = 14.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 8 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R07-APP-S2-001",
+      "chapter": 7,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R07-APP-S3-001",
+      "chapter": 7,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R07-APP-S4-001",
+      "chapter": 7,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 80?",
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "16"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "80 ÷ 10 = 8."
+    },
+    {
+      "id": "R07-APP-S5-001",
+      "chapter": 7,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R07-INV-S1-001",
+      "chapter": 7,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Geometry · Area",
+      "title": "The Ember Tile",
+      "story": "A floor tile glows when its area is named.",
+      "question": "A rectangle measures 8 units by 6 units. What is its area?",
+      "answers": [
+        "14",
+        "28",
+        "48",
+        "56"
+      ],
+      "correct": 2,
+      "hint": "Area = length × width.",
+      "explain": "8×6=48 square units."
+    },
+    {
+      "id": "R07-INV-S2-001",
+      "chapter": 7,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Math · Proportions",
+      "title": "The Furnace Dial",
+      "story": "The furnace doubles every setting.",
+      "question": "A map scale is 1 inch to 5 miles. How far is 7 inches?",
+      "answers": [
+        "12 miles",
+        "25 miles",
+        "35 miles",
+        "40 miles"
+      ],
+      "correct": 2,
+      "hint": "Multiply 7 by 5.",
+      "explain": "7×5=35 miles."
+    },
+    {
+      "id": "R07-INV-S3-001",
+      "chapter": 7,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Reading · Argument",
+      "title": "The Judge's Claim",
+      "story": "The judge says: 'The bridge broke after Loki crossed it. Therefore Loki broke it.'",
+      "question": "What is the flaw in the judge's reasoning?",
+      "answers": [
+        "It uses a mathematical formula.",
+        "It assumes sequence proves causation.",
+        "It provides too much evidence.",
+        "It contradicts the bridge's color."
+      ],
+      "correct": 1,
+      "hint": "Does 'after' always mean 'because of'?",
+      "explain": "An event happening afterward does not prove it was caused by the earlier event."
+    },
+    {
+      "id": "R07-INV-S4-001",
+      "chapter": 7,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "English · Transitions",
+      "title": "The Defense Statement",
+      "story": "A testimony needs the right transition.",
+      "question": "'The evidence seemed convincing. ___, a key witness had never visited the bridge.'",
+      "answers": [
+        "Therefore",
+        "However",
+        "Similarly",
+        "For example"
+      ],
+      "correct": 1,
+      "hint": "The second sentence contrasts with the first.",
+      "explain": "'However' signals a contrast."
+    },
+    {
+      "id": "R07-INV-S5-001",
+      "chapter": 7,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Algebra I · Equations",
+      "title": "The Fire Seal",
+      "story": "A red-gold equation blocks the exit.",
+      "question": "Solve 2(x + 4) = 22.",
+      "answers": [
+        "7",
+        "9",
+        "11",
+        "15"
+      ],
+      "correct": 0,
+      "hint": "Divide both sides by 2 first.",
+      "explain": "x+4=11, so x=7."
+    },
+    {
+      "id": "R07-CHA-S1-001",
+      "chapter": 7,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 19x − 5 = 204.",
+      "answers": [
+        "9",
+        "10",
+        "11",
+        "13"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "19x=209, so x=11."
+    },
+    {
+      "id": "R07-CHA-S2-001",
+      "chapter": 7,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R07-CHA-S3-001",
+      "chapter": 7,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R07-CHA-S4-001",
+      "chapter": 7,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 11 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "22",
+        "33",
+        "44",
+        "66"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 11 = 33."
+    },
+    {
+      "id": "R07-CHA-S5-001",
+      "chapter": 7,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R08-APP-S1-001",
+      "chapter": 8,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 9 = 15.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 9 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R08-APP-S2-001",
+      "chapter": 8,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R08-APP-S3-001",
+      "chapter": 8,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R08-APP-S4-001",
+      "chapter": 8,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 90?",
+      "answers": [
+        "8",
+        "9",
+        "10",
+        "18"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "90 ÷ 10 = 9."
+    },
+    {
+      "id": "R08-APP-S5-001",
+      "chapter": 8,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R08-INV-S1-001",
+      "chapter": 8,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Reading · Evidence",
+      "title": "The Keeper's Record",
+      "story": "An entry reads: 'The branch was removed at noon. The Keeper arrived at dusk.'",
+      "question": "Which conclusion is supported?",
+      "answers": [
+        "The Keeper removed the branch.",
+        "The Keeper arrived after the removal.",
+        "The branch was restored at dusk.",
+        "The TVA arrived at dusk."
+      ],
+      "correct": 1,
+      "hint": "Compare noon and dusk.",
+      "explain": "The Keeper arrived later than the recorded removal."
+    },
+    {
+      "id": "R08-INV-S2-001",
+      "chapter": 8,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Algebra I · Substitution",
+      "title": "The Jar's Number",
+      "story": "A jar lights up when its value is calculated.",
+      "question": "If y = 5x − 2 and x = 3, what is y?",
+      "answers": [
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "correct": 1,
+      "hint": "Multiply first, then subtract 2.",
+      "explain": "5(3)−2=13."
+    },
+    {
+      "id": "R08-INV-S3-001",
+      "chapter": 8,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "Data · Median",
+      "title": "The Forgotten Years",
+      "story": "Five records show delays of 2, 5, 7, 9 and 12 years.",
+      "question": "What is the median delay?",
+      "answers": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "correct": 1,
+      "hint": "The median is the middle value in ordered data.",
+      "explain": "The middle of five ordered numbers is 7."
+    },
+    {
+      "id": "R08-INV-S4-001",
+      "chapter": 8,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "English · Clarity",
+      "title": "The Contradictory Report",
+      "story": "A report contains an unclear pronoun.",
+      "question": "Which revision makes the meaning clearest?",
+      "answers": [
+        "When the Keeper met the guard, she was frightened.",
+        "The guard frightened her when she met the Keeper.",
+        "The Keeper was frightened when she met the guard.",
+        "When she met her, she was frightened."
+      ],
+      "correct": 2,
+      "hint": "Name the person who felt frightened.",
+      "explain": "The revision explicitly identifies the Keeper as frightened."
+    },
+    {
+      "id": "R08-INV-S5-001",
+      "chapter": 8,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Logic · Conditional reasoning",
+      "title": "The Ninth Record",
+      "story": "The archive has one final rule.",
+      "question": "'If the final rune is restored, the door opens.' The rune is restored. What follows?",
+      "answers": [
+        "The door opens.",
+        "The door stays closed.",
+        "The rune was never lost.",
+        "The Keeper disappears."
+      ],
+      "correct": 0,
+      "hint": "Apply the given if–then statement.",
+      "explain": "The stated condition has been met, so the door opens."
+    },
+    {
+      "id": "R08-CHA-S1-001",
+      "chapter": 8,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 21x − 5 = 247.",
+      "answers": [
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "21x=252, so x=12."
+    },
+    {
+      "id": "R08-CHA-S2-001",
+      "chapter": 8,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R08-CHA-S3-001",
+      "chapter": 8,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R08-CHA-S4-001",
+      "chapter": 8,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 12 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "24",
+        "36",
+        "48",
+        "72"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 12 = 36."
+    },
+    {
+      "id": "R08-CHA-S5-001",
+      "chapter": 8,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    },
+    {
+      "id": "R09-APP-S1-001",
+      "chapter": 9,
+      "difficulty": "apprentice",
+      "slot": 1,
+      "skill": "Algebra · One-step equations",
+      "title": "The First Seal",
+      "story": "A glowing equation guards the path.",
+      "question": "Solve x + 10 = 16.",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Subtract 10 from both sides.",
+      "explain": "x = 6."
+    },
+    {
+      "id": "R09-APP-S2-001",
+      "chapter": 9,
+      "difficulty": "apprentice",
+      "slot": 2,
+      "skill": "Reading · Evidence",
+      "title": "The Witness",
+      "story": "A note is tucked under a stone.",
+      "question": "\"The gate opened after the bell rang.\" Which happened first?",
+      "answers": [
+        "The gate opened",
+        "The bell rang",
+        "Both happened together",
+        "Neither happened"
+      ],
+      "correct": 1,
+      "hint": "The word \"after\" tells you the order.",
+      "explain": "The bell rang before the gate opened."
+    },
+    {
+      "id": "R09-APP-S3-001",
+      "chapter": 9,
+      "difficulty": "apprentice",
+      "slot": 3,
+      "skill": "English · Grammar",
+      "title": "The Broken Inscription",
+      "story": "A message has one correct version.",
+      "question": "Which sentence is grammatically correct?",
+      "answers": [
+        "The runes was glowing.",
+        "The runes is glowing.",
+        "The runes are glowing.",
+        "The runes be glowing."
+      ],
+      "correct": 2,
+      "hint": "The plural subject \"runes\" needs a plural verb.",
+      "explain": "\"The runes are glowing\" has correct agreement."
+    },
+    {
+      "id": "R09-APP-S4-001",
+      "chapter": 9,
+      "difficulty": "apprentice",
+      "slot": 4,
+      "skill": "Math · Percent",
+      "title": "The Coin Chest",
+      "story": "A small chest contains magical coins.",
+      "question": "What is 10% of 100?",
+      "answers": [
+        "9",
+        "10",
+        "11",
+        "20"
+      ],
+      "correct": 1,
+      "hint": "10% means one tenth.",
+      "explain": "100 ÷ 10 = 10."
+    },
+    {
+      "id": "R09-APP-S5-001",
+      "chapter": 9,
+      "difficulty": "apprentice",
+      "slot": 5,
+      "skill": "Reading · Main idea",
+      "title": "The Last Clue",
+      "story": "Loki leaves a short warning.",
+      "question": "\"The path is dangerous, but careful travelers can cross.\" What is the main idea?",
+      "answers": [
+        "The path is impossible.",
+        "Travelers should run.",
+        "Care can help travelers cross.",
+        "Loki owns the path."
+      ],
+      "correct": 2,
+      "hint": "Choose the idea supported by the whole sentence.",
+      "explain": "Careful travelers can cross despite danger."
+    },
+    {
+      "id": "R09-INV-S1-001",
+      "chapter": 9,
+      "difficulty": "investigator",
+      "slot": 1,
+      "skill": "Algebra I · Linear equations",
+      "title": "The Root Equation",
+      "story": "The final gate burns with green fire.",
+      "question": "Solve 3(x − 2) = 18.",
+      "answers": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "hint": "Divide by 3, then add 2.",
+      "explain": "x−2=6, so x=8."
+    },
+    {
+      "id": "R09-INV-S2-001",
+      "chapter": 9,
+      "difficulty": "investigator",
+      "slot": 2,
+      "skill": "Reading · Central idea",
+      "title": "The Keeper's Testimony",
+      "story": "The Keeper says: 'A choice erased is not a choice undone. Someone must remember what was lost.'",
+      "question": "What is the central idea?",
+      "answers": [
+        "Forgetting makes decisions harmless.",
+        "Lost choices still have consequences.",
+        "Every decision should be reversed.",
+        "Memories are always inaccurate."
+      ],
+      "correct": 1,
+      "hint": "What does the speaker say about erased choices?",
+      "explain": "The passage emphasizes the lasting consequences of lost choices."
+    },
+    {
+      "id": "R09-INV-S3-001",
+      "chapter": 9,
+      "difficulty": "investigator",
+      "slot": 3,
+      "skill": "English · Sentence structure",
+      "title": "The Final Record",
+      "story": "A sentence needs revision before it can be archived.",
+      "question": "Which sentence is grammatically complete?",
+      "answers": [
+        "Although the tree was damaged.",
+        "Because the roots were tangled.",
+        "The tree survived despite the damage.",
+        "While the Lokis argued."
+      ],
+      "correct": 2,
+      "hint": "A complete sentence needs an independent clause.",
+      "explain": "'The tree survived despite the damage' stands on its own."
+    },
+    {
+      "id": "R09-INV-S4-001",
+      "chapter": 9,
+      "difficulty": "investigator",
+      "slot": 4,
+      "skill": "Math · Percentages",
+      "title": "The Ninth Seal",
+      "story": "The seal measures restoration progress.",
+      "question": "Eight of ten branches have healed. What percent is that?",
+      "answers": [
+        "60%",
+        "75%",
+        "80%",
+        "90%"
+      ],
+      "correct": 2,
+      "hint": "Convert 8/10 to a percentage.",
+      "explain": "8÷10=0.8=80%."
+    },
+    {
+      "id": "R09-INV-S5-001",
+      "chapter": 9,
+      "difficulty": "investigator",
+      "slot": 5,
+      "skill": "Logic · Conclusions",
+      "title": "The Unwritten Ending",
+      "story": "A final inscription reads: 'Restoration requires truth and consent.'",
+      "question": "Which plan follows both conditions?",
+      "answers": [
+        "Restore the branch secretly.",
+        "Ask everyone but hide the evidence.",
+        "Reveal the truth and seek agreement.",
+        "Destroy the remaining branches."
+      ],
+      "correct": 2,
+      "hint": "Both truth and consent must be present.",
+      "explain": "Only revealing the truth and seeking agreement satisfies both requirements."
+    },
+    {
+      "id": "R09-CHA-S1-001",
+      "chapter": 9,
+      "difficulty": "challenge",
+      "slot": 1,
+      "skill": "Algebra · Multi-step",
+      "title": "The Twisted Equation",
+      "story": "The seal twists into a longer equation.",
+      "question": "Solve 23x − 5 = 294.",
+      "answers": [
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correct": 2,
+      "hint": "Add 5, then divide by the coefficient.",
+      "explain": "23x=299, so x=13."
+    },
+    {
+      "id": "R09-CHA-S2-001",
+      "chapter": 9,
+      "difficulty": "challenge",
+      "slot": 2,
+      "skill": "Reading · Inference",
+      "title": "The Unreliable Witness",
+      "story": "Two statements conflict.",
+      "question": "Witness A: \"The door was locked at noon.\" Witness B: \"I entered at noon.\" What can you conclude?",
+      "answers": [
+        "B is definitely lying.",
+        "A is definitely lying.",
+        "More information is needed.",
+        "The door was never locked."
+      ],
+      "correct": 2,
+      "hint": "Could there be another entrance or a key?",
+      "explain": "The statements alone do not establish who is wrong."
+    },
+    {
+      "id": "R09-CHA-S3-001",
+      "chapter": 9,
+      "difficulty": "challenge",
+      "slot": 3,
+      "skill": "English · Precision",
+      "title": "The Scholar’s Revision",
+      "story": "A prophecy must be edited for clarity.",
+      "question": "Choose the most concise sentence without changing its meaning.",
+      "answers": [
+        "Due to the fact that the portal was broken, it failed to open.",
+        "The portal, which was broken, failed to open because it was broken.",
+        "Because the portal was broken, it did not open.",
+        "The portal failed to open due to the reason of its broken condition."
+      ],
+      "correct": 2,
+      "hint": "Remove repetitive or wordy phrases.",
+      "explain": "The third option is clear and concise."
+    },
+    {
+      "id": "R09-CHA-S4-001",
+      "chapter": 9,
+      "difficulty": "challenge",
+      "slot": 4,
+      "skill": "Math · Rates",
+      "title": "The Temporal Engine",
+      "story": "The engine runs at a constant rate.",
+      "question": "A machine creates 13 sparks every 2 minutes. How many in 6 minutes?",
+      "answers": [
+        "26",
+        "39",
+        "52",
+        "78"
+      ],
+      "correct": 1,
+      "hint": "Six minutes contains three two-minute intervals.",
+      "explain": "3 × 13 = 39."
+    },
+    {
+      "id": "R09-CHA-S5-001",
+      "chapter": 9,
+      "difficulty": "challenge",
+      "slot": 5,
+      "skill": "Logic · Necessary conditions",
+      "title": "The Last Argument",
+      "story": "A final inscription offers a conditional rule.",
+      "question": "\"Only those with a rune may enter.\" Someone enters. What must be true?",
+      "answers": [
+        "They are a god.",
+        "They have a rune.",
+        "They solved every puzzle.",
+        "They entered secretly."
+      ],
+      "correct": 1,
+      "hint": "\"Only those with\" states a necessary condition.",
+      "explain": "Entry requires possession of a rune."
+    }
+  ]
+}
