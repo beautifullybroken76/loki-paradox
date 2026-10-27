@@ -1,0 +1,9 @@
+Question bank audit
+{
+  "totalQuestions": 160,
+  "duplicatePromptsAcrossBank": 51,
+  "slotsWithMultipleVariants": 20,
+  "totalSlots": 135
+}
+
+Most Apprentice and God of Mischief slots contain only one question, so question variety requires additional authored questions. The answer choices now shuffle and remain stable on resume.
