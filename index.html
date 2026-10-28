@@ -2,7 +2,7 @@
 <style>
 .cloudbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0;padding:12px;border:1px solid #416558;border-radius:12px;background:#132923}.cloudbar button{border:1px solid #678d79;border-radius:8px;background:#245b45;color:#fff;padding:8px 13px;cursor:pointer}.cloudbar small{color:#c8dfd4}.cloudmodal{border:1px solid #688978;border-radius:14px;background:#142522;color:#fff;max-width:440px;width:calc(100% - 30px);padding:24px}.cloudmodal input{display:block;width:100%;padding:11px;margin:8px 0 14px;background:#091714;color:white;border:1px solid #718b7f;border-radius:7px}.cloudmodal button{padding:10px;margin:5px;border:1px solid #789c87;background:#265b46;color:white;border-radius:7px;cursor:pointer}.cloudmodal p{color:#c4d9ce}.cloudmodal::backdrop{background:#000b}
 </style>
-</head><body><main><header><div class="eyebrow">An interactive learning adventure</div><h1>The Loki Paradox</h1><p class="sub">The Nine Realms are unraveling. Two tricksters. One fractured timeline. Your choices matter.</p><div class="stats"><span id="chapterStat">Chapter 1 · Asgard</span><span id="runeStat">Runes 0 / 9</span><span id="skillStat">Skills practiced 0</span><span id="difficultyStat">Difficulty · Investigator</span></div></header><nav class="topnav"><button id="saveExit" class="secondary" type="button">Save &amp; Exit</button></nav><div class="progress"><div id="bar" style="width:0%"></div></div><section class="panel" id="game" aria-live="polite"></section><details class="panel"><summary>Parent's progress report</summary><div id="report"></div><p class="small">Progress is saved only in this browser on this device. No information is transmitted to a server.</p><button class="secondary" id="reset">Reset adventure</button></details><footer>Unofficial fan-inspired educational project. Not affiliated with Marvel, Disney, or the ACT organization. Original story and questions. <a href="question-manager.html" style="color:var(--gold)">Question Bank Manager</a> (local JSON editor; no server changes).</footer></main><div class="cloudbar"><button type="button" id="cloudButton">Cloud account</button><small id="cloudStatus" role="status">Local browser save · not synced</small></div>
+</head><body><main><header><div class="eyebrow">An interactive learning adventure</div><h1>The Loki Paradox</h1><p class="sub">The Nine Realms are unraveling. Two tricksters. One fractured timeline. Your choices matter.</p><div class="stats"><span id="chapterStat">Chapter 1 · Asgard</span><span id="runeStat">Runes 0 / 9</span><span id="skillStat">Skills practiced 0</span><span id="difficultyStat">Difficulty · Investigator</span></div></header><nav class="topnav"><button id="saveExit" class="secondary" type="button">Save &amp; Exit</button></nav><div class="progress"><div id="bar" style="width:0%"></div></div><section class="panel" id="game" aria-live="polite"></section><details class="panel"><summary>Parent's progress report</summary><div id="report"></div><p class="small">Progress is saved only in this browser on this device. No information is transmitted to a server.</p><button class="secondary" id="reset">Reset adventure</button></details><footer>Unofficial fan-inspired educational project. Not affiliated with Marvel, Disney, or the ACT organization. Original story and questions. <a href="question-manager.html" style="color:var(--gold)">Question Bank Manager</a> (local JSON editor; no server changes).</footer></main><div class="cloudbar"><button type="button" id="cloudButton">Cloud account</button><button type="button" id="libraryConnect">Use Adventure Library login</button><small id="cloudStatus" role="status">Local browser save · not synced</small></div>
 <dialog id="cloudDialog" class="cloudmodal"><h2>Cloud progress</h2><p>Use a nickname and password to sync between devices. No email address needed.</p><label for="cloudUser">Username</label><input id="cloudUser" autocomplete="username" maxlength="60"><label for="cloudPass">Password (12+ characters)</label><input id="cloudPass" type="password" autocomplete="current-password"><div><button id="cloudLogin" type="button">Sign in</button><button id="cloudRegister" type="button">Create account</button><button id="cloudLogout" type="button">Sign out</button><button id="cloudClose" type="button">Close</button></div><p id="cloudMessage" role="status"></p></dialog>
 <script>
 const KEY='loki-paradox-v1';
@@ -188,6 +188,36 @@ fetch('questions.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Qu
      }catch(e){note(e.message)}
    }
  };
+ const LIBRARY_ORIGIN='https://adventures.pamsprogramming.com';
+ let bridgePopup=null;
+ $('libraryConnect').onclick=()=>{
+   if(!api){info('Cloud API is not configured');return;}
+   bridgePopup=window.open(LIBRARY_ORIGIN+'/auth-bridge.html','adventureLibraryAuth','width=510,height=460');
+   if(!bridgePopup)info('Allow popups to connect your Adventure Library account.');
+ };
+ window.addEventListener('message',async event=>{
+   if(event.origin!==LIBRARY_ORIGIN || !bridgePopup || event.source!==bridgePopup)return;
+   const data=event.data;
+   if(!data || data.type!=='adventure-library-auth-v1' || typeof data.token!=='string' || data.token.length>6000)return;
+   bridgePopup=null;
+   const previous=token;
+   token=data.token;
+   try {
+     // Validate with the API before trusting a received token or replacing local session.
+     await request('/api/progress');
+     sessionStorage.setItem('loki_cloud_token',token);
+     stop();
+     await reconcile();
+     note('Connected with your Adventure Library account.');
+     if(dialog.open)dialog.close();
+   } catch(e) {
+     token=previous;
+     if(previous)sessionStorage.setItem('loki_cloud_token',previous);
+     else sessionStorage.removeItem('loki_cloud_token');
+     info('Library sign-in failed · local progress safe');
+     note(e.message);
+   }
+ });
  $('cloudLogin').onclick=()=>auth('login');$('cloudRegister').onclick=()=>auth('register');
  $('cloudLogout').onclick=()=>{clearSession();note('Signed out. Local progress remains on this device.')};
  $('cloudClose').onclick=()=>dialog.close();
